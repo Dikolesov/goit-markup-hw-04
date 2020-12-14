@@ -179,6 +179,23 @@ header address {
 .nav-list .nav-list-list:not(:last-child) {
   margin-right: 50px;
 }
+
+.nav-contacts .nav-contacts-element-link {
+  display: flex;
+  align-items: center;
+}
+.nav-contacts-element-link-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.nav-contacts-element-link-icon.envelope {
+  width: 16px;
+  height: 12px;
+}
+.nav-contacts-element-link-icon.smartphone {
+  width: 10px;
+  height: 16px;
+}
 /* ================ header END ================ */
 
 /* ================ HERO ================ */
