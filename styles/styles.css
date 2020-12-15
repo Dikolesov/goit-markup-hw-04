@@ -201,10 +201,17 @@ header address {
 /* ================ HERO ================ */
 
 .hero {
-  background-color: var(--second-bgc);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: radial-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -260,6 +267,16 @@ header address {
 }
 .features-list-element .section-list-title {
   margin-bottom: 10px;
+}
+.features-list-element-icons-container {
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.features-list-element-icons {
+  width: 70px;
+  height: 70px;
 }
 /* ================ Особенности конец  ================ */
 
