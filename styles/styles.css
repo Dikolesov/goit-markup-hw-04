@@ -345,13 +345,26 @@ header address {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-
-  outline: 1px solid red;
 }
 .social-links-icon {
   width: 20px;
   height: 20px;
 }
+.social-links.day {
+  background-color: #ffffff;
+}
+.social-links-icon.day {
+  fill: #afb1b8;
+}
+.social-links.day:focus,
+.social-links.day:hover {
+  background-color: var(--accent-color);
+}
+.social-links.day:hover .social-links-icon.day,
+.social-links.day:focus .social-links-icon.day:focus {
+  fill: #ffffff;
+}
+
 /* ================ Наша команда конец  ================ */
 
 /* ================ футер  ================ */
