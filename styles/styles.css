@@ -145,8 +145,8 @@ footer .logo {
 
 .nav-list .nav-list-element:focus,
 .nav-list .nav-list-element:hover,
-.nav-contacts .nav-contacts-element:hover a,
-.nav-contacts .nav-contacts-element:focus a {
+.nav-contacts .nav-contacts-element-link:hover,
+.nav-contacts .nav-contacts-element-link:focus {
   color: var(--accent-color);
 }
 
@@ -185,6 +185,7 @@ header address {
   display: flex;
   align-items: center;
 }
+
 .nav-contacts-element-link-icon {
   margin-right: 10px;
   fill: currentColor;
