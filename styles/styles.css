@@ -359,7 +359,7 @@ header address {
   background-color: var(--accent-color);
 }
 .social-links.day:hover .social-links-icon.day,
-.social-links.day:focus .social-links-icon.day:focus {
+.social-links.day:focus .social-links-icon.day {
   fill: #ffffff;
 }
 
