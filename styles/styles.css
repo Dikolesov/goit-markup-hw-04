@@ -145,8 +145,8 @@ footer .logo {
 
 .nav-list .nav-list-element:focus,
 .nav-list .nav-list-element:hover,
-.nav-contacts a:hover,
-.nav-contacts a:focus {
+.nav-contacts .nav-contacts-element:hover a,
+.nav-contacts .nav-contacts-element:focus a {
   color: var(--accent-color);
 }
 
