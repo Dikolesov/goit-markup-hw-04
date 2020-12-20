@@ -70,10 +70,11 @@ header {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .section-list-title {
   font-family: Roboto, sans-serif;
@@ -285,9 +286,7 @@ header address {
 .about-us {
   padding-bottom: 94px;
 }
-.about-us .section-title {
-  margin-bottom: 50px;
-}
+
 .about-us-list {
   display: flex;
   justify-content: space-between;
@@ -302,9 +301,7 @@ header address {
   background-color: #f5f4fa;
   text-align: center;
 }
-.our-team .section-title {
-  margin-bottom: 50px;
-}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -366,6 +363,31 @@ header address {
 }
 
 /* ================ Наша команда конец  ================ */
+
+/* ================ Постоянные клиенты  ================ */
+.our-clients .our-clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.our-clients .our-clients-links {
+  color: #afb1b8;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.our-clients-links-logo {
+  fill: currentColor;
+}
+.our-clients .our-clients-links:hover,
+.our-clients .our-clients-links:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+/* ================ Постоянные клиенты конец  ================ */
 
 /* ================ футер  ================ */
 
