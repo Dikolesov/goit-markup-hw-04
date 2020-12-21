@@ -136,10 +136,10 @@ footer .logo {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.172;
   letter-spacing: 0.02em;
 }
-.nav-contacts a {
+.nav-contacts .nav-contacts-element-link {
   color: var(--primary-text-color);
 }
 
@@ -183,21 +183,14 @@ header address {
 
 .nav-contacts .nav-contacts-element-link {
   display: flex;
-  align-items: center;
 }
 
 .nav-contacts-element-link-icon {
   margin-right: 10px;
   fill: currentColor;
+  align-self: center;
 }
-.nav-contacts-element-link-icon.envelope {
-  width: 16px;
-  height: 12px;
-}
-.nav-contacts-element-link-icon.smartphone {
-  width: 10px;
-  height: 16px;
-}
+
 /* ================ header END ================ */
 
 /* ================ HERO ================ */
@@ -206,6 +199,10 @@ header address {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: radial-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -440,7 +437,7 @@ footer .social {
   fill: #ffffff;
 }
 footer .social > p {
-  font-family: Roboto sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -522,16 +519,18 @@ footer .social > p {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+  display: flex;
+}
+.list-gallery-item-link {
   border: 1px solid #eeeeee;
 }
-
+.list-gallery-item-link:focus,
+.list-gallery-item-link:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .list-gallery-container {
   padding: 20px 24px;
 }
 
-.list-gallery-item:hover,
-.list-gallery-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 /* ================ Страница портфолио конец ================ */ ;
