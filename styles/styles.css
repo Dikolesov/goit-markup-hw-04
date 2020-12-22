@@ -130,7 +130,7 @@ footer .logo {
 }
 
 .nav-list-element,
-.nav-contacts a {
+.nav-contacts .nav-contacts-element-link {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
