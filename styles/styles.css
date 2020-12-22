@@ -184,6 +184,8 @@ header address {
 .nav-contacts .nav-contacts-element-link {
   display: flex;
   align-items: center;
+  /* Без паддинга рвется граница при фокусе */
+  padding: 0.6px;
 }
 
 .nav-contacts-element-link-icon {
